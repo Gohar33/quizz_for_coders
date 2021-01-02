@@ -2,6 +2,7 @@ body{
     width:100%;
     background-color:#E9E7FC;
     max-width: 100vw;
+    font-family: Helvetica;
  
 }
 
@@ -215,9 +216,6 @@ justify-content: center;
     50% {color:#EBDEF0;}
     75%{color:#C9A6B6;}
     100% {color:#ECA0B0;}
-   
-    
-
 }
 
 .myNewInput{
@@ -245,13 +243,13 @@ justify-content: center;
     background-color:#E9A4C3;
 }
 img{
-    width:5%;
+    width:3%;
     height: 2%;
     margin-top: 80px;
 }
 footer {
-    margin-top:5px;
-    padding-bottom:40px;
+    margin-top:10px;
+    padding-bottom:30px;
     color:white;
 }
 
@@ -261,9 +259,6 @@ footer {
     font-size:22px;
     padding-bottom: 10px;
 }
-
-
-
 
 @media only screen and (min-width:420px) and (max-width:1100px){
     body{

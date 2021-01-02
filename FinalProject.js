@@ -152,13 +152,13 @@
     function buttonFunction3(){
     console.log(correctAnswers3)
 
-    if (thirdInput.value === correctAnswers3) {
+    if (thirdInput.value === correctAnswers3[0] || thirdInput.value === correctAnswers3[1]){
         result3.innerHTML="Correct!", score++;
     } else{
         result3.innerHTML="Wrong answer!"
     }
     }
-    var correctAnswers3=("strings") 
+    var correctAnswers3=["strings", "string"]
 
 
     //forth question
